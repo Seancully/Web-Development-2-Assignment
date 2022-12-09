@@ -1,0 +1,305 @@
+html, body, header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    background: 
+        linear-gradient(to right,
+        #D2B48C,
+        #FFFDD0,
+        white);
+    background-size: 400% 400%;
+    animation: animate-background 7s infinite ease-in-out;
+}
+
+@keyframes animate-background {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 7vh;
+    background-color: #6F4E37;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 5px 5px rgb(0, 0, 0, 0.4);
+}
+
+h3 {
+    padding: 1em;
+    color: white;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+ul, li {
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0;
+}
+
+li, a {
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin: 0.5em;
+    padding: 10px 15px;
+    color: #D2B48C;
+    border-radius: 45px;
+}
+
+li:hover {
+    background-color: #FFFDD0;
+    transform: TranslateX(10px) TranslateY(10px);
+    box-shadow: 3px 5px 5px;
+}
+
+.pic1{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 35vh;
+    border: 25px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image:
+        url('./assets/images/Library_header4.webp'),
+        linear-gradient(
+            to bottom right,
+            #6F4E37,
+            #D2B48C,
+            white
+
+        );
+    background-size: cover;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+ .pic2{
+    margin: 2px;
+    margin-left: 100px;
+    margin-top: 0%;
+    padding: 0;
+    width: 40vw;
+    height: 38vh;
+    border: 25px solid transparent;
+    display: inline-block;
+    align-items: left;
+    justify-content: space-around;
+    background-image:
+        url('./assets/images/libraryHome1.jpg'),
+        linear-gradient(
+            to bottom right,
+            #6F4E37,
+            #D2B48C,
+            white
+
+        );
+    background-size: cover;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+ }
+
+ .pic3{
+    margin: 5px;
+    padding: 0;
+    width: 40vw;
+    height: 38vh;
+    border: 25px solid transparent;
+    display: inline-block;
+    align-items: right;
+    justify-content: space-around;
+    background-image:
+        url('./assets/images/libraryHome2.jpg'),
+        linear-gradient(
+            to bottom right,
+            #6F4E37,
+            #D2B48C,
+            white
+
+        );
+    background-size: cover;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+ }
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #D2B48C;
+    padding: 5px;
+    color: white;
+ }
+
+ .loginBody {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .container2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 5px solid #6F4E37;
+    border-radius: 20px;
+ }
+
+ .container2 p{
+    color: #D2B48C
+ }
+
+ .container2 input{
+    border-radius: 9px;
+ }
+
+ input{
+    margin: 5px 0px;
+    height: 35px;
+    padding: 7px;
+ }
+
+ button{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: #6F4E37;
+    border: none;
+    border-radius: 9px;
+    color: #D2B48C;
+ }
+ .Login{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: #6F4E37;
+    border: none;
+    border-radius: 9px;
+    color: #D2B48C;
+ }
+
+ .search{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: #6F4E37;
+    border: none;
+    border-radius: 9px;
+    color: #D2B48C;
+ }
+
+ .register{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: #6F4E37;
+    border: none;
+    border-radius: 9px;
+    color: #D2B48C;
+ }
+
+ button:hover{
+    background-color: #D2B48C;
+    
+ }
+
+ .mainStart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .mainStart h2{
+    text-decoration: underline;
+    color: #6F4E37;
+ }
+
+ .searchTitleAuthor{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 5px solid #6F4E37;
+    border-radius: 20px;
+ }
+
+ .searchBody1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .searchH3{
+    text-decoration: underline;
+    background: 
+        linear-gradient(to right,
+        #6F4E37,
+        #D2B48C,
+        #FFFDD0);
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+ }
+
+  .searchBody2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+  .SearchCategory{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 5px solid #6F4E37;
+    border-radius: 20px;
+  }
+
+  .Reservebody h3{
+    text-decoration: underline;
+    color: #6F4E37;
+  }
+
+  .php{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+ .inputCSS{
+    border: 5px solid #6F4E37;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    margin-bottom: 3px;
+    margin-top: 3px;
+ }
+
+ .errorRegister{
+    display: flex;
+    align-items: right; 
+    margin-right: 10px;
+ }
