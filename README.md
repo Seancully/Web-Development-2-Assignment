@@ -78,7 +78,7 @@ git clone https://github.com/your-username/library-management.git
 
 **Project Contributors:**
 
-- Your Name - Developer
+- Sean Culleton - Developer
 
 **License:**
 
